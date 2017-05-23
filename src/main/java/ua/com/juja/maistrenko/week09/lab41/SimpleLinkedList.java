@@ -156,14 +156,14 @@ public class SimpleLinkedList<E> implements SimpleList<E> {
             return nextNode != null;
         }
 
-        public Node<E> next() {
+        public E next() {
             if (nextNode == null) {
                 throw new NoSuchElementException();
             } else {
                 last = nextNode;
                 nextNode = nextNode.next;
                 index++;
-                return last;
+                return last.item;
             }
         }
 
