@@ -53,4 +53,13 @@ public class BasicIO {
         }
 
     }
+
+    static void quiz() {
+        new DataOutputStream(new BufferedOutputStream(new ByteArrayOutputStream()));
+        //new DataOutputStream(byte[]);
+        DataOutput ref = null;
+
+
+
+    }
 }
